@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/richardforjoesky/aws-training/issues"
   },
-  "homepage": "https://github.com/richardforjoesky/aws-training#readme"
+  "homepage": "https://github.com/richardforjoesky/aws-training#readme",
+  "devDependencies": {
+    "serverless": "^3.0.0"
+  }
 }
