@@ -4,7 +4,16 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs18.x
+  region: us-east-1
+  profile: serverless-admin
+  stage: "dev"
+  timeout: 10
+  memorySize: 128
 
 functions:
   start:
     handler: index.handler
+  api:
+    handler: aws-node-express-api-project/index.handler
+    events:
+      - httpApi: '*'
