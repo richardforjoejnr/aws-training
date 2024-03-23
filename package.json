@@ -8,7 +8,8 @@
     "deploy": "serverless deploy",
     "remove": "serverless remove",
     "invoke": "serverless invoke -f start -l",
-    "logs": "serverless logs -f start -t"
+    "logs": "serverless logs -f start -t",
+    "create": "serverless"
   },
   "repository": {
     "type": "git",
