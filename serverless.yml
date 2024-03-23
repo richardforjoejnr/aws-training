@@ -1,4 +1,4 @@
-service: aws-node-project
+service: aws-node-test
 frameworkVersion: '3'
 
 provider:
