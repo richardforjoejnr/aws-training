@@ -4,7 +4,11 @@
   "description": "aws learning journey",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy",
+    "remove": "serverless remove",
+    "invoke": "serverless invoke -f start -l",
+    "logs": "serverless logs -f start -t"
   },
   "repository": {
     "type": "git",

@@ -90,4 +90,8 @@ serverless info      View deployed endpoints and resources
 serverless invoke    Invoke deployed functions
 serverless --help    Discover more commands
 
-sls deploy function -f function
+sls deploy function -f start
+sls invoke -f start --log
+sls logs -f start #all logs of the call
+
+
